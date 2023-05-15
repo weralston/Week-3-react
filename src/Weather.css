@@ -1,0 +1,61 @@
+.Weather {
+
+body
+  font-family: arial, sans-serif;
+    background-color: aliceblue;
+  
+ .weather-app {
+      margin: 10px ;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: 1px solid #dadde1;
+      border-radius: 5px;
+      background-color: cornflowerblue;
+    }
+
+    .current-info {
+      margin: 0 auto;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-right: 10px;
+      border: 2px solid #dadde1;
+      border-radius: 5px;
+      background-color: white;
+      width: 400px;
+      text-transform: capitalize;
+    }
+
+    .weather-status {
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-transform: capitalize;
+      float: right;
+    }
+
+    ul {
+      margin: 0 auto;
+      list-style: none;
+      padding-top: 60px;
+      padding-left: 2px;
+      border-right: 1px solid #dadde1;
+      font-weight: bolder;
+      padding-right: 25px;
+      padding-bottom: 15px;
+    }
+
+    .weather-forecast {
+      margin: 0 auto;
+      padding-left: 0px;
+      padding-bottom: 20px;
+      padding-top: 40px;
+    }
+
+    .open-source {
+      margin: 0 auto;
+      padding: 0px;
+      float: left;
+    }
+
+  }
